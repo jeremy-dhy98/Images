@@ -1,0 +1,20 @@
+# Ignore unwanted files and folders
+*.log
+*.py.un~
+.idea/ 
+.ipynb_checkpoints/
+Allura,Briem_Hand,Indie_Flower,Pacifico/
+Briem_Hand,Indie_Flower,Pacifico/
+Briem_Hand,Pacifico/
+Briem_Hand/
+        
+Lib/
+Scripts/
+__pycache__/
+        
+materials-python-pillow/
+       
+pyvenv.cfg
+        
+share/
+        
