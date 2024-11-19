@@ -1,0 +1,26 @@
+from graphics import *
+
+win = GraphWin("Jeremy", 720, 720)
+color = color_rgb(25, 28, 200)
+win.setBackground(color)
+win.plot(300, 300, color="white")
+win.plotPixel(450, 600, color="white")
+txtBox = Entry(Point(300, 300), 5)
+txtBox.setText("Enter")
+txtBox.setSize(12)
+txtBox.setStyle("bold")
+txtBox.setTextColor("black")
+txtBox.setFill(color_rgb(255, 255, 255))
+txtBox.setText("Login")
+txt = txtBox.getText()
+print(txt)
+txtBox.draw(win)
+p = win.getMouse()
+txtBox2 = Entry(Point(int(p.getX()), int(p.getY())), 5)
+txtBox2.draw(win)
+print(f"X : {p.getX()} and Y: {p.getY()}")
+# txtBox.move(int(p.getX()), int(p.getY()))
+# print(f"Oject  moved at: {txtBox.getAnchor}")
+
+win.getMouse() # Keep the win on
+win.close() 

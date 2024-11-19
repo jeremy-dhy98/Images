@@ -1,3 +1,4 @@
+  
 # Ignore unwanted files and folders
 *.log
 *.py.un~
@@ -17,4 +18,8 @@ materials-python-pillow/
 pyvenv.cfg
         
 share/
+.virtual_documents/
+       
+fonts/
+       
         
